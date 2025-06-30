@@ -1,5 +1,5 @@
 {
-  "name": "alx-project-0x05",
+  "name": "alx-project-0x06",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,10 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^2.8.2",
+    "@types/react-redux": "^7.1.34",
     "next": "15.3.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-icons": "^5.5.0"
+    "react-icons": "^5.5.0",
+    "react-redux": "^9.2.0",
+    "redux": "^5.0.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
