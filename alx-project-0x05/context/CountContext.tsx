@@ -30,6 +30,6 @@ export const useCount = () => {
   if (!context) {
     throw new Error("useCount must be within a Count Provider")
   }
-
+ 
   return context
 }
